@@ -7,9 +7,7 @@ import time
 import json
 from datetime import datetime, timezone, timedelta
 
-from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton,
-                             QLabel, QTextEdit, QHBoxLayout, QGroupBox,
-                             QSpinBox, QMessageBox)
+from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QTextEdit, QHBoxLayout, QGroupBox, QSpinBox, QMessageBox)
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
 import ntplib
 import pytz
