@@ -1,7 +1,7 @@
 # Xiaomi Unlocker
 Это вставляем в строку браузера на странице входа убрать пробел возле ":" сайт: https://c.mi.com/global/
-javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);if(token){prompt("Copy the token:", token[1]);}else{alert("Token not found");}})()
 
+javascript :(function(){var token=document.cookie.match(/popRunToken=([^;]+)/);if(token){prompt("Copy the token:", token[1]);}else{alert("Token not found");}})()
 
 полученный токен вставляем token.txt
 
